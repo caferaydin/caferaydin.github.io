@@ -1,0 +1,17 @@
+<footer class="site-footer">
+  <div class="shell footer-inner">
+    <section>
+      <p class="eyebrow">Positioning</p>
+      <h2>Cafer Aydin - Software Engineer, System Builder, Product Developer</h2>
+      <p>Official personal brand site focused on engineering credibility, clarity, and execution.</p>
+    </section>
+    <section>
+      <p class="eyebrow">Planned, Not Published Yet</p>
+      <ul class="compact-list">
+        {% for section in site.data.future-sections.items %}
+          <li>{{ section }}</li>
+        {% endfor %}
+      </ul>
+    </section>
+  </div>
+</footer>

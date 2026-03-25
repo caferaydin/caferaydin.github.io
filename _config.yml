@@ -1,0 +1,31 @@
+title: Cafer Aydin
+email: hello@caferaydin.com
+description: >-
+  Official personal brand site of Cafer Aydin - Software Engineer,
+  System Builder, Product Developer.
+url: "https://caferaydin.github.io"
+baseurl: ""
+lang: tr
+timezone: Europe/Istanbul
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  pages_en:
+    output: false
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      image: /assets/images/og-default.jpg
+
+planned_sections:
+  - CV / Resume
+  - Blog / Notes
+  - Case Studies
+  - Speaking / Media
+  - Project Detail Pages

@@ -1,0 +1,23 @@
+tr:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Projects
+    url: /projects/
+  - title: Expertise
+    url: /expertise/
+  - title: Contact
+    url: /contact/
+
+en:
+  - title: Home
+    url: /en/
+  - title: About
+    url: /en/about/
+  - title: Projects
+    url: /en/projects/
+  - title: Expertise
+    url: /en/expertise/
+  - title: Contact
+    url: /en/contact/
